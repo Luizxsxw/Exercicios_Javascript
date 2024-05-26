@@ -1,0 +1,95 @@
+/*Efeito de fundo cinza*/
+
+.{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+    background-color: #e1e1e1;
+    position: relative;
+  }
+  
+  /*Ajustando o título*/
+h1{
+    text-transform: uppercase;
+    color: #A8AEB4;
+    text-shadow: 1px 1px 0 black;
+    text-align: center;
+  }
+  
+  /*Ajustando a caixa*/
+#caixa1{
+    position: relative;
+    width: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D4D4D4;
+    border: 2px solid #C8C8C8;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+#caixa2{
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#botao1{
+    position: absolute;
+    width: 30%;
+    left: 18%;
+    bottom: 9%;
+    padding: 1%;
+    background-color: #e4e4e4;
+    color: rgb(0, 0, 0);
+    border: 2px solid #a8a8a8;
+    border-radius: 5px;
+
+}
+
+#botao2{
+  position: absolute;
+  width: 30%;
+  right: 18%;
+  bottom: 9%;
+  padding: 1%;
+  background-color: #e4e4e4;
+  color: rgb(0, 0, 0);
+  border: 2px solid #a8a8a8;
+  border-radius: 5px;
+
+}
+
+#botao1:hover, #botao2:hover {
+    background-color: #9C9C9C;
+    color: white;
+    transition: 300ms;
+}
+  
+  /*Ajustando as labels*/
+  label{
+    color: #8A8A8A;
+  }
+  
+  /*Ajustando os inputs*/
+  input{
+    margin-bottom: 10px;
+    color: #8A8A8A;
+    border: 2px solid #C8C8C8;
+    border-radius: 4px;
+    
+  }
+  label, input{
+
+  }
+  
+  #media, #resultado{
+    color:#8A8A8A;
+    text-transform: uppercase;
+    text-align: center;
+  }

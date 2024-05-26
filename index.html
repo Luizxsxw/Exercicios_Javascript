@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--Aqui vai o título-->
+<h1>Calcular média dos alunos.</h1><br>
+
+<!--Entrada do das notas-->
+
+<div id="caixa1">
+  <label>Digite a 1ª nota: </label>
+  <input type="text" id="nota1" placeholder=""><br>
+  <label>Digite a 2ª nota: </label>
+  <input type="text" id="nota2"><br>
+  <label>Digite a 3ª nota: </label>
+  <input type="text" id="nota3"><br>
+  <label>Digite a 4ª nota: </label>
+  <input type="text" id="nota4"><br><br>
+  <div id="caixa2">
+    <button id="botao1" onclick="obterMedia()">Fazer cálculo</button>
+    <button id="botao2" type="reset">Limpar</button>
+  </div>
+  <!--Aqui será o print-->
+  <div id="media"> </div>
+  <div id="resultado"> </div>
+</div>
+<script src="script.js"></script>   
+</body>
+</html>
